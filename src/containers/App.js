@@ -66,7 +66,7 @@ class App extends Component{
     }
         return(
             
-            <div className="tc" style={{overflow:'hidden'}}>
+            <div className="tc" style={{overflow:'hidden', height:'100vh'}}>
                 <h1 className="f2-l f2-m f4">RoboFriends</h1>
                 <SearchBox searchChange={this.onSearchChange}/>
                 

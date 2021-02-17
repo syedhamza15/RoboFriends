@@ -24,7 +24,7 @@ const CardList = ({robots}) =>{
         />)
     })
     return(
-    <div className="flex flex-wrap flex-auto items-stretch justify-center">
+    <div className="flex flex-wrap flex-auto items-stretch justify-center" style={{padding:'0 0 30px 0'}}>
         {cardComponent}
     </div>
     )
